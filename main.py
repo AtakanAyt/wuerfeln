@@ -50,7 +50,7 @@ while True:
     computer_counter = 0
 
 
-    # Computer würfelt bis er entweder über 18 ist oder zwischen 15 und 18 mit dem Score erreicht
+    # Computer würfelt solange bis er auf den Score 15 oder drüber kommt.
     while computer:
         print("Der Computer würfelt jetzt:")
         if computer_counter <= 15:
